@@ -1,0 +1,30 @@
+
+    
+        body{
+            background-image: url("Background\ \(2\).png");
+            
+        }
+        #contactboxapply{
+            color: black;
+            background-color: none;
+            text-underline-offset: none;
+            border-color: black;
+            margin-block-end: 50px;
+            text-align: center;
+            margin-right: 20px;
+            
+
+            }
+.navbar{
+    padding-top: 20px;
+}
+.navbar a{
+    color: grey;
+}
+        #homeblacktext{
+        color: black;
+        }
+        #navclass{
+            border:none;
+        }
+
