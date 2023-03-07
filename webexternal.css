@@ -1,30 +1,323 @@
+body {
 
-    
-        body{
-            background-image: url("Background\ \(2\).png");
-            
-        }
-        #contactboxapply{
-            color: black;
-            background-color: none;
-            text-underline-offset: none;
-            border-color: black;
-            margin-block-end: 50px;
-            text-align: center;
-            margin-right: 20px;
-            
+    background-color: #e9e7e7;
 
-            }
-.navbar{
-    padding-top: 20px;
 }
-.navbar a{
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: left;
+    margin-left: 90px;
+}
+
+.topnav a:hover {
+    background-color: black;
     color: grey;
 }
-        #homeblacktext{
-        color: black;
-        }
-        #navclass{
-            border:none;
-        }
 
+.topnav a.split {
+    float: right;
+    margin-right: 90px;
+    background-color: #e9e7e7;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: -1px;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: center;
+
+}
+
+.topnav a.start {
+    color: black;
+    font-weight: bold;
+}
+
+.relative #mountain {
+    position: relative;
+    margin-left: 780px;
+    border-radius: 2px;
+    top: 100px;
+    right: 90px;
+}
+
+.absolute #text {
+    position: absolute;
+    top: 160px;
+    left: 90px;
+    font-size: 81px;
+    letter-spacing: -2px;
+    line-height: 81px;
+    color: black;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+
+.absolute #para {
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    width: 1136px;
+    height: 146px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    top: 400px;
+
+}
+
+.absolute #rectangle {
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: #e9e7e7;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: center;
+    width: 206px;
+    height: 50px;
+    background-color: #232323;
+    color: white;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 50px;
+
+}
+
+.absolute #scribblelightest {
+    position: absolute;
+    top: 280px;
+    width: 500px;
+    height: 510px;
+    right: 1100px;
+
+}
+
+.absolute #scribbledark {
+    position: absolute;
+    top: 500px;
+    width: 150px;
+    height: 300px;
+    float: right;
+    margin-left: 1350px;
+}
+
+.relative1 #blackimg {
+    position: relative;
+    margin-top: 300px;
+    background-color: black;
+    width: 100%;
+    border-color: black;
+    width: 1440px;
+    height: 387px;
+}
+
+.absolute1 #text1 {
+    position: absolute;
+    font-size: 55px;
+    letter-spacing: -1px;
+    line-height: 55px;
+    color: white;
+    font-weight: 700;
+    font-family: "Cardo";
+    text-align: center;
+    padding: 30px;
+    left: 450px;
+    top: 800px;
+
+}
+
+.absolute1 #para1 {
+    position: absolute;
+    width: 1170px;
+    height: 146px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    padding: 70px 30px;
+    color: white;
+    top: 900px;
+    left: 100px;
+
+}
+
+.absolute1 #scribblelight {
+    position: absolute;
+    color: green;
+    top: 1050px;
+    left: 1000px;
+    width: 400px;
+}
+
+.absolute1 #scribblelight1 {
+    position: absolute;
+    top: 850px;
+    width: 400px;
+    height: 100px;
+    left: 0px;
+}
+
+.absolute1 #rectangle1 {
+    position: absolute;
+    font-size: 21px;
+    letter-spacing: -1px;
+    color: #e9e7e7;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: center;
+    background-color: black;
+    top: 1100px;
+    left: 560px;
+    padding: 6px 30px;
+}
+
+.relative2 #p1 {
+    position: relative;
+    left: 90px;
+    padding: 10px 20px;
+
+
+}
+
+.relative2 #p2 {
+    position: relative;
+    left: 100px;
+    padding: 30px 30px;
+    padding-right: 20px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.relative2 #p3 {
+    position: relative;
+    padding: 10px;
+    padding-right: 100px;
+    left: 150px;
+}
+
+.relative2 #p4 {
+    position: relative;
+}
+
+.relative2 #p5 {
+    position: relative;
+}
+
+.absolute2 #paragraph1 {
+    position: absolute;
+    top: 1650px;
+    left: 100px;
+    width: 965px;
+    height: 205px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+
+}
+
+.absolute2 #paragraph2 {
+    position: absolute;
+    top: 1650px;
+    left: 560px;
+    width: 965px;
+    height: 205px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+}
+
+.absolute2 #paragraph3 {
+    position: absolute;
+    top: 1650px;
+    left: 1010px;
+    width: 965px;
+    height: 205px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+}
+
+.absolute2 #l1 {
+    position: absolute;
+    margin-left: 100px;
+    top: 1550px;
+
+}
+
+.absolute2 #l2 {
+    position: absolute;
+    margin-left: 200px;
+    top: 1550px;
+}
+
+.absolute2 #l3 {
+    position: absolute;
+    margin-left: 650px;
+    top: 1550px;
+
+}
+
+.absolute2 #t1 {
+    position: absolute;
+    top: 1570px;
+    left: 100px;
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+
+.absolute2 #t2 {
+    position: absolute;
+    top: 1570px;
+    left: 560px;
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+
+.absolute2 #t3 {
+    position: absolute;
+    top: 1570px;
+    left: 1010px;
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
