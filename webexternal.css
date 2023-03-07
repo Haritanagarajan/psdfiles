@@ -99,14 +99,15 @@ body {
     font-weight: bold;
     margin-left: 90px;
     margin-top: 50px;
+    border-radius: 5px;
 
 }
 
 .absolute #scribblelightest {
     position: absolute;
     top: 280px;
-    width: 500px;
-    height: 510px;
+    width: 540px;
+    height: 760px;
     right: 1100px;
 
 }
@@ -117,12 +118,12 @@ body {
     width: 150px;
     height: 300px;
     float: right;
-    margin-left: 1350px;
+    margin-left: 1335px;
 }
 
 .relative1 #blackimg {
     position: relative;
-    margin-top: 300px;
+    margin-top: 290px;
     background-color: black;
     width: 100%;
     border-color: black;
@@ -163,7 +164,6 @@ body {
 
 .absolute1 #scribblelight {
     position: absolute;
-    color: green;
     top: 1050px;
     left: 1000px;
     width: 400px;
@@ -217,10 +217,17 @@ body {
 
 .relative2 #p4 {
     position: relative;
+    width: 75px;
+    height: 400px;
+    top: 290px;
+    left: 75px;
 }
 
 .relative2 #p5 {
     position: relative;
+    bottom: 420px;
+    right: 90px;
+    height: 750px;
 }
 
 .absolute2 #paragraph1 {
@@ -269,20 +276,20 @@ body {
 .absolute2 #l1 {
     position: absolute;
     margin-left: 100px;
-    top: 1550px;
+    top: 1540px;
 
 }
 
 .absolute2 #l2 {
     position: absolute;
-    margin-left: 200px;
-    top: 1550px;
+    margin-left: 560px;
+    top: 1540px;
 }
 
 .absolute2 #l3 {
     position: absolute;
-    margin-left: 650px;
-    top: 1550px;
+    top: 1540px;
+    left: 1010px;
 
 }
 
@@ -320,4 +327,170 @@ body {
     color: #232323;
     font-weight: 700;
     font-family: "Cardo";
+}
+
+.relative3 #s3 {
+    position: relative;
+    left: 900px;
+    bottom: 440px;
+    width: 390px;
+    height: 900px;
+
+}
+
+.relative3 #sd3 {
+    position: relative;
+    bottom: 250px;
+    width: 310px;
+    left: 190px;
+
+}
+
+.relative3 #airplane {
+    position: relative;
+    left: 650px;
+    bottom: 650px;
+}
+
+.absolute3 #p3 {
+    position: absolute;
+    font-size: 90px;
+    letter-spacing: -2px;
+    line-height: 98px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    text-align: center;
+    top: 2200px;
+    left: 379px;
+}
+
+.absolute3 #or3 {
+    position: absolute;
+    width: 2000px;
+    height: 60px;
+    font-size: 23px;
+    letter-spacing: -1px;
+    color: #232323;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: center;
+    top: 2420px;
+    left: -295px;
+
+
+}
+
+.relative4 #i4 {
+    position: relative;
+    bottom:550px;
+    height:750px;
+    width:400px;
+    left:120px;
+}
+
+.relative4 #ii4 {
+    position: relative;
+    bottom:760px;
+    left:200px;
+}
+
+.relative4 #arrow {
+    position: relative;
+    bottom:200px;
+    right:-250px;
+    height:40px;
+    
+}
+
+.relative4 #tape {
+    position: relative;
+opacity:0.902;
+bottom:550px;
+width:40px;
+height:160px;
+right:729px;
+
+}
+
+.absolute4 #para4 {
+    position: absolute;
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 50px;
+    text-decoration: underline;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    left:600px;
+    top:3070px;
+}
+
+.absolute4 #para24 {
+    position: absolute;
+    width: 845px;
+    height: 460px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    top:3089px;
+    left:700px;
+    
+}
+.absolute5 #img5{
+    position:absolute; 
+    top: 3640px;
+    left:800px;
+    height:500px;
+    width:700px;
+       
+} 
+
+.relative5 #b5{
+position: relative;
+width: 100%;
+height: 750px;
+background-color:black;
+bottom: 500px;
+
+}
+.relative5 #sl5{
+position: relative;
+bottom:590px;
+width:500px;
+right:100px;
+}
+.absolute5 #para5{
+position: absolute;
+font-size: 17px;
+letter-spacing: -1px;
+color:white;
+font-weight: 900;
+font-family: "Lato";
+top:3960px;
+left:150px;
+}
+.absolute5 #para51{
+position: absolute;
+font-size: 17px;
+color:white;
+letter-spacing: -1px;
+font-weight: 900;
+font-family: "Lato";
+top:3770px;
+left:150px;
+}
+.absolute5 #t5{
+position: absolute;
+font-size: 55px;
+letter-spacing: -1px;
+line-height: 55px;
+color: white;
+font-weight: 700;
+font-family: "Cardo";
+top:3640px;
+left:150px;
 }
